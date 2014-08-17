@@ -4,7 +4,7 @@
 Office No: 116,  
 New Building,  
 
-**[The Institute of Mathematical Sciences](www.imsc.res.in)**    
+**[The Institute of Mathematical Sciences](http://www.imsc.res.in)**    
 Fourth Cross Street,    
 **C.I.T Campus**,  
 Tharamani,                                                               

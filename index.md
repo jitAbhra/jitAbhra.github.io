@@ -1,7 +1,7 @@
 # Welcome!
 ![ ][selfie]
 
-Hello, I am Abhrajit Laskar. I am pursuing for a PhD in theoretical soft-condensed matter physics under supervision of [Dr. Ronojoy Adhikari](http://rjoy.in/group/) at The Institute of Mathematical Science, commonly known as [IMSc](www.imsc.res.in),Chennai. Visit our [active soft matter group](http://rjoy.in/group/) for more information.
+Hello, I am Abhrajit Laskar. I am pursuing for a PhD in theoretical soft-condensed matter physics under supervision of [Dr. Ronojoy Adhikari](http://rjoy.in/group/) at The Institute of Mathematical Science, commonly known as [IMSc](http://www.imsc.res.in),Chennai. Visit our [active soft matter group](http://rjoy.in/group/) for more information.
 
 ### Research Interest
 
