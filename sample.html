@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="css/html; charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Fluid website with cool sidebar.">
+<link rel="shortcut icon" href="" type="pictures/head.jpg">
+<meta name="keywords" content="your,keywords,goes,here" />
+<meta name="abhra" content="Customized from http://purecss.io/layouts/side-menu, gfm from https://github.com/johnmdonahue/git_marked" />
+<title>abhra</title>
+<link rel="stylesheet" href="./stylesheets/pure.css">
+<link rel="stylesheet" href="./stylesheets/side-menu.css">
+<link rel="stylesheet" href="./stylesheets/gfm.css">
+</head>
+<body>
+
+
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading" href="index.html">Home</a>
+            <ul>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="content">
+
+<!-- For Latex Support-->
+<style TYPE="text/css">
+code.has-jax {font: inherit; color:#2d2d2d font-size: 100%; background: inherit; border: inherit;}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- For Latex Support-->
+
+
+<p>This is cool I guess, But I am not very sure how does it work.</p>
+
+<h1 id="header1">Header1</h1>
+
+<h2 id="header2">Header2</h2>
+
+<h3 id="header3">Header3</h3>
+
+<h4 id="header4">Header4</h4>
+
+<h5 id="header5">Header5</h5>
+
+<h6 id="header6">Header6</h6>
+
+<p>{&#8211;Hello&#8211;}</p>
+
+<p><em>itelic</em></p>
+
+<p><strong>Bold</strong></p>
+
+<p><a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a></p>
+
+<p>doc: Hello </p>
+
+<hr />
+
+<table>
+<colgroup>
+<col style="text-align:right;"/>
+<col style="text-align:right;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:right;">Hello</th>
+	<th style="text-align:right;">there</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:right;">it</td>
+	<td style="text-align:right;">is</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<p>This is nice </p>
+
+<p>It is beautifully shown</p>
+</blockquote>
+
+<pre><code class="python">import numpy as np
+</code></pre>
+
+<ol>
+<li><p>First ordered list item</p></li>
+<li>Another item
+
+<ul>
+<li>Unordered sub-list.</li>
+</ul></li>
+<li>Actual numbers don&#8217;t matter, just that it&#8217;s a number
+
+<ol>
+<li>Ordered sub-list</li>
+</ol></li>
+<li><p>And another item.</p>
+
+<p>You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we&#8217;ll use three here to also align the raw Markdown).</p>
+
+<p>To have a line break without a paragraph, you will need to use two trailing spaces.
+Note that this line is separate, but within the same paragraph.</p>
+
+<p>(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)</p></li>
+<li><p>Unordered list can use asterisks</p></li>
+<li><p>Or minuses</p></li>
+<li><p>Or pluse</p></li>
+</ol>
+
+<p><a href="https://www.google.com">I&#8217;m an inline-style link</a></p>
+
+<p><a href="https://www.google.com" title="Google's Homepage">I&#8217;m an inline-style link with title</a></p>
+
+<p>[I&#8217;m a reference-style link][Arbitrary case-insensitive reference text]</p>
+
+<p><a href="../blob/master/LICENSE">I&#8217;m a relative reference to a repository file</a></p>
+
+<p>[You can use numbers for reference-style link definitions][1]</p>
+
+<p>Or leave it empty and use the [link text itself]</p>
+
+<p>Some text to show that the reference links can follow later.</p>
+
+<p>The original image is 128x128 and contains no shadow.
+!</p>
+
+<p>It will be displayed as 96x96 with a subtle shadow.
+<img src="pictures/me.jpg" alt="Styled icon" id="img-icon_styled" style="height:240px;width:240px;" /></p>
+
+<p>Reference-style:
+![alt text][logo]</p>
+
+<p>$$
+\eta = \beta
+$$</p>
+
+<p>\begin{equation}
+\frac{\beta}{\delta}
+\end{equation}</p>
+
+<p>Here is some text containing a footnote<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a>. You can then continue your thought&#8230;</p>
+
+<p>This is a {==test==}.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn:1">
+<p>doc <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:2">
+<p>Here is the text of the footnote itself. <a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+
+        </div>
+    </div>
+</div>
+<script src="js/ui.js"></script>
+</body>
+</html>

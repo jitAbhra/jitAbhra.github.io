@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="css/html; charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Fluid website with cool sidebar.">
+<link rel="shortcut icon" href="" type="pictures/head.jpg">
+<meta name="keywords" content="your,keywords,goes,here" />
+<meta name="abhra" content="Customized from http://purecss.io/layouts/side-menu, gfm from https://github.com/johnmdonahue/git_marked" />
+<title>abhra</title>
+<link rel="stylesheet" href="./stylesheets/pure.css">
+<link rel="stylesheet" href="./stylesheets/side-menu.css">
+<link rel="stylesheet" href="./stylesheets/gfm.css">
+</head>
+<body>
+
+
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading" href="index.html">Home</a>
+            <ul>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="content">
+
+<!-- For Latex Support-->
+<style TYPE="text/css">
+code.has-jax {font: inherit; color:#2d2d2d font-size: 100%; background: inherit; border: inherit;}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- For Latex Support-->
+
+
+<h1 id="blogs">Blogs</h1>
+
+<h2 id="project26">Project 26</h2>
+
+<p><strong>Project 26</strong> is about write a blog every fortnight about related scientific topics during a period of one year. The topics can be diverse in nature, numerical techniques, Solving special class of problems, comparison, benchmarking, some new cool softwares. </p>
+
+<h2 id="discussions">Discussions</h2>
+
+<p>This is to take a leaf out from our constant effort to run a discussion group. The blogs under this section should be accessible and informal in nature.</p>
+
+<h2 id="githubandothers">github and others</h2>
+
+<p>The aim behind this is to build up together. I will add more as I proceed. </p>
+
+        </div>
+    </div>
+</div>
+<script src="js/ui.js"></script>
+</body>
+</html>
