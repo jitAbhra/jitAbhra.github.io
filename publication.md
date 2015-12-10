@@ -1,11 +1,9 @@
 ## Publications 
-4. **_Cover Image for Brownian microhydrodynamics of active filaments._**   
-	_Abhrajit Laskar_, R. Adhikari.  
-	Versions : [Soft Matter, RSC Publication (2015) ](http://pubs.rsc.org/en/content/articlelanding/2015/sm/c5sm90204e).
 
 3. **_Brownian microhydrodynamics of active filaments._**   
 	_Abhrajit Laskar_, R. Adhikari.  
-	Versions : [Soft Matter, RSC Publication (2015) ](http://pubs.rsc.org/en/content/articlelanding/2015/sm/c5sm02021b#!divAbstract) or [preprint version](http://arxiv.org/abs/1508.02376).
+	Versions : [Soft Matter, RSC Publication (2015) ](http://pubs.rsc.org/en/content/articlelanding/2015/sm/c5sm02021b#!divAbstract) or [preprint version](http://arxiv.org/abs/1508.02376).     
+	* __Highlighted by cover page__ in [**Soft Matter, RSC Publication (2015) **](http://pubs.rsc.org/en/content/articlelanding/2015/sm/c5sm90204e)
 
 
 2. **_Hydrodynamic Instabilities Provide a Generic Route to Spontaneous Biomimetic Oscillations in Active Filaments._**   
