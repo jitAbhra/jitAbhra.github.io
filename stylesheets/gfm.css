@@ -109,7 +109,7 @@ table tbody tr:nth-child(2n-1) {
 
 img {
     float: right;
-    margin: 20px;
+    margin: 15px 20px 15px 20px;
     background-color: #eee;
     border: 2px 2px 2px 2px #ddd solid;
     padding: 5px 5px 5px 5px;

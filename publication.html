@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="css/html; charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Fluid website with cool sidebar.">
+<link rel="shortcut icon" href="" type="pictures/head.jpg">
+<meta name="keywords" content="your,keywords,goes,here" />
+<meta name="abhra" content="Customized from http://purecss.io/layouts/side-menu, gfm from https://github.com/johnmdonahue/git_marked" />
+<title>abhra</title>
+<link rel="stylesheet" href="./stylesheets/pure.css">
+<link rel="stylesheet" href="./stylesheets/side-menu.css">
+<link rel="stylesheet" href="./stylesheets/gfm.css">
+</head>
+<body>
+
+
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <ul>
+				<li><a href="index.html">Home</a></li>
+                <li><a href="cv.pdf">CV</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a class="pure-menu-heading"href="publication.html">Publications</a></li>
+				<li><a href="others.html">Other</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="content">
+
+<!-- For Latex Support-->
+<style TYPE="text/css">
+code.has-jax {font: inherit; color:#2d2d2d font-size: 100%; background: inherit; border: inherit;}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- For Latex Support-->
+
+
+<h2 id="publications">Publications</h2>
+
+<ol>
+<li><p><strong><em>Cover Image for Brownian microhydrodynamics of active filaments.</em></strong><br/>
+<em>Abhrajit Laskar</em>, R. Adhikari.<br/>
+Versions : <a href="http://pubs.rsc.org/en/content/articlelanding/2015/sm/c5sm90204e">Soft Matter, RSC Publication (2015) </a>.</p></li>
+<li><p><strong><em>Brownian microhydrodynamics of active filaments.</em></strong><br/>
+<em>Abhrajit Laskar</em>, R. Adhikari.<br/>
+Versions : <a href="http://pubs.rsc.org/en/content/articlelanding/2015/sm/c5sm02021b#!divAbstract">Soft Matter, RSC Publication (2015) </a> or <a href="http://arxiv.org/abs/1508.02376">preprint version</a>.</p></li>
+<li><p><strong><em>Hydrodynamic Instabilities Provide a Generic Route to Spontaneous Biomimetic Oscillations in Active Filaments.</em></strong><br/>
+<em>Abhrajit Laskar</em>, Rajeev Singh, S Ghose, G Jayaraman, P. B. Sunil Kumar, R. Adhikari.<br/>
+Versions : <a href="http://www.nature.com/srep/2013/130611/srep01964/full/srep01964.html">Scientific Reports, Nature (2013) </a> or <a href="http://arxiv.org/pdf/1211.5368v2.pdf">preprint version</a>.</p></li>
+<li><p><strong><em>Autonomous Motility of Active Filaments due to Spontaneous Symmetry Breaking.</em></strong><br/>
+ G Jayaraman, S Ramachandran, S Ghose, <strong>Abhrajit Laskar </strong>, M. S Bhamla, P. B. Sunil Kumar, and R. Adhikari.<br/>
+ Versions : <a href="http://prl.aps.org/abstract/PRL/v109/i15/e158302">Physical Review Letters, 109, 158302 (2012)</a> or <a href="http://arxiv.org/pdf/1204.1416v4.pdf">preprint version</a>.</p></li>
+</ol>
+
+        </div>
+    </div>
+</div>
+<script src="js/ui.js"></script>
+</body>
+</html>
