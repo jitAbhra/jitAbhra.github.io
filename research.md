@@ -19,7 +19,7 @@ Non-equilibrium processes which convert chemical energy into mechanical motion e
 We simulate the nonlocal Stokesian hydrodynamics of an elastic filament which is active due a permanent distribution of stresslets along its contour. A bending instability of an initially straight filament spontaneously breaks flow symmetry and leads to autonomous filament motion which, depending on conformational symmetry, can be translational or rotational. At high ratios of activity to elasticity, the linear instability develops into nonlinear fluctuating states with large amplitude deformations. The dynamics of these states can be qualitatively understood as a superposition of translational and rotational motion associated with filament conformational modes of opposite symmetry. Our results can be tested in molecular-motor filament mixtures, synthetic chains of autocatalytic particles, or other linearly connected systems where chemical energy is converted to mechanical energy in a fluid environment.
 
 [hydIns]: pictures/sofMat.png width="400px" height="400px"
-[Biomim]: pictures/biomimetic.png width="400px" height="400px"
+[Biomim]: pictures/biomimetic.png width="400px" height="300px"
 [symBrk]: pictures/hydroSymmBreak.png width="400px" height="400px"
 
 
