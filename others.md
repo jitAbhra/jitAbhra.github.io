@@ -1,6 +1,4 @@
-## Blog
+![ ][Coming_Soon]
 
-## Numerics
-
-## Useful Links
+[Coming_Soon]: pictures/comingSoon.jpg width="800px" hight="400px"
 
